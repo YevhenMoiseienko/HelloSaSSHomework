@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/10177.eot");
+  src: local("☺"), url("../fonts/10177.woff") format("woff"), url("../fonts/10177.ttf") format("truetype"), url("../fonts/10177.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: local("☺"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/*Reset styles*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*_______________________end reset styles________________________________*/
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.align-color-height, h2, p {
+  text-align: center;
+  color: #070707;
+  line-height: 1.23;
+}
+
+.flex {
+  display: flex;
+}
+
+.background {
+  background-color: #F6F6F6;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+a {
+  color: #070707;
+}
+a:hover {
+  color: blue;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.header {
+  padding: 32px 0;
+  border-bottom: 1px solid #828282;
+}
+
+ul {
+  justify-content: space-between;
+}
+
+.link {
+  color: #828282;
+}
+
+li:first-child a {
+  font-weight: 700;
+  color: #070707;
+}
+li:first-child a:hover {
+  color: blue;
+}
+
+h1 {
+  font-size: 47px;
+  line-height: 1.25;
+  color: #070707;
+  max-width: 130px;
+  font-weight: 700;
+}
+
+.me {
+  justify-content: space-between;
+  padding: 40px 0 50px;
+}
+
+.me-info {
+  align-items: flex-end;
+}
+
+.me-language {
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  align-items: flex-end;
+  padding-right: 30px;
+}
+.me-language h3 {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #070707;
+  font-weight: 700;
+}
+.me-language h3 span {
+  color: #828282;
+}
+
+.photo {
+  padding-bottom: 104px;
+}
+
+.about-me {
+  padding: 120px 0 107px;
+}
+.about-me h2 {
+  padding-bottom: 30px;
+}
+
+.skills {
+  padding: 91px 0 110px;
+}
+.skills p {
+  padding: 70px 0 85px;
+}
+
+.my-skills {
+  justify-content: space-between;
+}
+
+.portfolio {
+  text-align: center;
+}
+.portfolio a {
+  display: block;
+  padding: 45px 0 100px;
+  text-decoration: underline;
+}
+.portfolio h2 {
+  padding: 112px 0 55px;
+}
+
+.contacts {
+  padding: 115px 0 125px;
+}
+.contacts p {
+  padding: 30px 0;
+}
+.contacts button {
+  display: block;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #070707;
+  margin: 0 auto;
+}
+.contacts button:hover {
+  background-color: #3B444A;
+}
+.contacts button:active {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.social-links {
+  max-width: 350px;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
